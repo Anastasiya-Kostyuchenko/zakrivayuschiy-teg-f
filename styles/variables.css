@@ -4,22 +4,17 @@
   --main-font-family: Inter, sans-serif;
   --fantasy-font-family: "Press Start 2P", fantasy;
   --heart-color: #ff0000;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --background-page: #fff;
-    --background-color: #d3d3d3;
-    --background-color-start: #e7e7e7;
-    --background-color-end: #1a1a1a;
-    --header-background: var(--background-page);
-    --title-font-weight: "wght" 700;
-    --text-font-weight: "wght" 400;
-    --text-color: #000;
-    --mix-blend-color: var(--background-page);
-    --stroke-color: var(--text-color);
-    --label-stroke-color: var(--background-page);
-  }
+  --background-page: #fff;
+  --background-color: #d3d3d3;
+  --background-color-start: #e7e7e7;
+  --background-color-end: #1a1a1a;
+  --header-background: var(--background-page);
+  --title-font-weight: "wght" 700;
+  --text-font-weight: "wght" 400;
+  --text-color: #000;
+  --mix-blend-color: var(--background-page);
+  --stroke-color: var(--text-color);
+  --label-stroke-color: var(--background-page);
 }
 
 @media (prefers-color-scheme: dark) {
