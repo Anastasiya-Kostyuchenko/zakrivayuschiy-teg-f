@@ -32,3 +32,19 @@
   --stroke-color: var(--text-color);
   --label-stroke-color: var(--background-page);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-page: #000;
+    --background-color: var(--background-page);
+    --background-color-start: #007f0c;
+    --background-color-end: #004306;
+    --header-background: var(--background-page);
+    --title-font-weight: "wght" 785;
+    --text-font-weight: "wght" 465;
+    --text-color: #00cc14;
+    --mix-blend-color: var(--text-color);
+    --stroke-color: var(--text-color);
+    --label-stroke-color: var(--background-page);
+  }
+}
